@@ -1,6 +1,12 @@
+import { styled } from "../styles"
+
+const Button = styled('button', {
+  backgroundColor: '$green500',
+})
+
 function Home() {
   return (
-    <div>Hello World</div>
+    <Button>clique aqui</Button>
   )
 }
 
